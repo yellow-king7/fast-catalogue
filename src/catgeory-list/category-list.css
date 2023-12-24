@@ -1,0 +1,10 @@
+.nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #6c6c6c;
+  padding: 0.6rem;
+  transition: all 0.2s;
+  &:hover {
+    color: rgb(223, 122, 122);
+  }
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: sans-serif;
+}
+
+@keyframes fadeInHoriz {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.fade-in-horiz {
+  animation: fadeInHoriz 1s ease forwards;
+}
