@@ -1,5 +1,5 @@
-import { FastfoodType } from "../types/fastfood.type";
+import { DataType } from "../core/useAxios";
 
 export type FastFoodListProps = {
-  fastfoods?: FastfoodType[];
+  fastfoods?: DataType[];
 };
